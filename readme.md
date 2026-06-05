@@ -1,46 +1,66 @@
 # JS Journey
 
-A collection of beginner JavaScript projects and small web utilities.
+A collection of beginner web projects built with HTML, CSS, and JavaScript.
 
-## Project Overview
+## What’s inside
 
-This repository contains simple interactive apps and scripts built to practice core JavaScript concepts such as DOM manipulation, random generation, user input, and basic algorithms.
+- `Auto-Changing Text Program`
+  - A small interactive page that automatically changes text content.
+  - Files: `index.html`, `index.js`, `style.css`.
 
-## Folder Contents
+- `Baloon Trail Program`
+  - An animated balloon trail effect with cursor interaction.
+  - Files: `index.html`, `index.js`, `style.css`, `balloon_.png`.
+
+- `Calculator Program`
+  - A basic calculator UI for arithmetic operations.
+  - Files: `index.html`, `index.js`, `style.css`, `readme.md`.
 
 - `Counter Program`
-  - A small web app that tracks a numeric counter.
-  - Features: increment, decrement, and reset buttons.
+  - A counter app with increment, decrement, and reset controls.
+  - Files: `index.html`, `index.js`, `style.css`, `preview.png`, `readme.md`.
+
+- `Dark Mode Toggle Program`
+  - A light/dark theme switcher for a demo page.
   - Files: `index.html`, `index.js`, `style.css`.
 
 - `Dice Roller`
-  - An interactive dice rolling app.
-  - Features: choose how many dice to roll, display random values, and show dice face images.
-  - Files: `index.html`, `index.js`, `style.css`, `Assets/`.
+  - A dice rolling simulator that displays random dice faces.
+  - Files: `index.html`, `index.js`, `style.css`, `Assets/1.svg` through `Assets/6.svg`.
+
+- `Digital Clock Program`
+  - A live digital clock display with a custom theme.
+  - Files: `index.html`, `index.js`, `style.css`, `luffy_g5.svg`, `preview.png`, `readme.md`.
+
+- `Movie Trailer Popup Program`
+  - A modal popup that plays a movie trailer video.
+  - Files: `index.html`, `index.js`, `style.css`, `movie-trailer.mp4`.
 
 - `number guessing game`
-  - A JavaScript guessing game using browser prompts and alerts.
-  - Features: randomly generates a number between 1 and 100, tracks attempts, and gives higher/lower feedback.
+  - A console-based number guessing experience using prompts.
   - Files: `index.js`.
 
 - `Password Generator`
-  - A script that generates a random password from selected character sets.
-  - Features: lowercase, uppercase, numeric, and symbol support; length configuration.
+  - A password generator script for random secure strings.
   - Files: `index.js`.
 
+- `StopWatch Program`
+  - A stopwatch tool with start, pause, and reset functions.
+  - Files: `index.html`, `index.js`, `style.css`, `readme.md`.
+
 - `Temperature conversion`
-  - A temperature converter web app.
-  - Features: convert values between Celsius and Fahrenheit.
+  - An interface for converting Celsius and Fahrenheit.
   - Files: `index.html`, `index.js`, `style.css`.
 
-## How to Use
+## How to use
 
-1. Open any folder with an `index.html` file.
-2. Open the HTML file in a web browser to interact with the app.
-3. For pure JavaScript files like `number guessing game` and `Password Generator`, run them in the browser console or add a simple HTML wrapper.
+1. Open any project folder.
+2. Launch `index.html` in a web browser for apps with a UI.
+3. For script-only folders such as `number guessing game` and `Password Generator`, run the JavaScript in the browser console or wrap it with a simple HTML page.
 
 ## Notes
 
-- These projects are great for learning JavaScript fundamentals.
-- The `Dice Roller` folder includes image assets for the dice faces.
-- The `number guessing game` uses `prompt()` and `alert()` for user interaction.
+- Several folders include extra documentation in their own `readme.md` files.
+- `Dice Roller` includes SVG assets for dice faces.
+- `Movie Trailer Popup Program` includes a local `movie-trailer.mp4` video file.
+- This repository is designed for learning DOM manipulation, events, animation, and JavaScript logic.

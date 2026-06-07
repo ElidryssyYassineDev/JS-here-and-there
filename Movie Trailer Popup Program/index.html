@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="main-container">
         <img src="https://m.media-amazon.com/images/M/MV5BNjVlNmIxNjktZTI5ZS00NDNjLWIxZTAtMGFjYjMyMDkzYzE1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
-        <h2>Movie title</h2>
+        <h1>Movie title</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sint tempora facilis corrupti cumque inventore quibusdam totam? Dolore, quia eum inventore quasi odit, magni aperiam vel iure animi quos veniam.</p>
         <button class="btn">watch Now</button>
     </div>
 
-    <div class="trailer-container">
-        <video src="movie-trailer.mp4"></video>
+    <div class="trailer-container active">
+        <video src="movie-trailer.mp4" controls></video>
+        <i class="fa-solid fa-xmark fa-2x close-icon"></i>
     </div>
 
     <script src="index.js"></script>

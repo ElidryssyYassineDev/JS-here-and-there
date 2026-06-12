@@ -13,14 +13,19 @@
 
         <form action="">
             <label for="city">City:</label>
-            <input type="text" placeholder="example:london,casablanca,fès">
+            <input id="city-input" type="text" placeholder="example:london,casablanca,fès">
             <input type="submit" value="Get Weather" class="weatherBtn">
         </form>
 
         <div id="weather-data">
-            <img src="http://openweathermap.org/img/wn/01d.png" alt="icon">
-            <h1 class="temperature">4°C</h1>
-            <p class="description">overcast clouds</p>
+            <div class="icon">
+              <img src="http://openweathermap.org/img/wn/01d.png" alt="icon">
+      
+            </div>
+            
+            
+            <div class="temperature">4°C</div> 
+            <div class="description">overcast clouds</div>
 
             <div class="detail">
                 <div>feels like: 4°C</div>

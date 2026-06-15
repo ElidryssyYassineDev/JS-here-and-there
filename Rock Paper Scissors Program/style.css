@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightgray;
+}
+
+button{
+    min-width: 45px;
+    min-height: 45px;
+    border-radius: 5px;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    transition: background-color 0.4 ease;
+}
+
+#rockBtn{
+    background-color: salmon;
+}
+#rockBtn:hover{
+    background-color: hsl(6, 93%, 65%);
+}
+#paperBtn{
+    background-color: hsl(205, 89%, 60%);
+}
+#paperBtn:hover{
+    background-color: hsl(205, 89%, 50%);
+}
+#scissorsBtn{
+    background-color: hsl(120, 64%, 45%);
+}
+#scissorsBtn:hover{
+    background-color: hsl(120, 64%, 35%);
+}
+button:active{
+    opacity: 70%;
+}

@@ -10,21 +10,21 @@
     <h1>Rock Paper Scissors Game</h1>
     <p>Choose your move</p>
     <div class="buttons">
-        <button id="rockBtn">
-            &#x1f44a
+        <button id="rockBtn" name="rock">
+            &#x1f44a;
         </button>
-        <button id="paperBtn">
-            &#x1f590
+        <button id="paperBtn" name="paper">
+            &#x1f590;
         </button>
-        <button id="scissorsBtn">
-            &#x270c
+        <button id="scissorsBtn" name="scissors">
+            &#x270c;
         </button>
     </div>
     
-
-    <div class="result">
-        your score:
-        Computer's score:
+    <p id="result">YOU WON !</p>
+    <div id="scores">
+        your score: <span id="user-score" style="color: green;">0</span>
+        Computer's score: <span id="computer-score" style="color: red;" >0</span>
     </div>
 
     <script src="index.js"></script>
